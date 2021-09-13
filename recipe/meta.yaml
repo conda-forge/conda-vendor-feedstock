@@ -23,6 +23,8 @@ requirements:
     - python >=3.6
     - conda-lock
     - pyyaml
+    - requests
+    - click
 
 test:
   imports:
