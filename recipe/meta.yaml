@@ -1,16 +1,16 @@
 {% set name = "conda-vendor" %}
-{% set version = "0.1.10" %}
+{% set version = "0.1.11" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 source:
   url: https://github.com/MetroStar/conda-vendor/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 6c6e0462362e22975c314d4085b6d33b7c0de90f6da8cc614429eb0a5bbd585e
+  sha256: 5658d229d021c30e4832e5bc17d0172d44351e0b34e667757a67c5fedb83294e
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
   noarch: python
   entry_points:
     - conda-vendor = conda_vendor.__main__:cli
@@ -35,7 +35,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Conda Vendor is a tool to create local conda channels and manifests for vendored offline deployments'
+  summary: Conda Vendor is a tool to create local conda channels and manifests for vendored offline deployments
 
 extra:
   recipe-maintainers:
