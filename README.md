@@ -117,5 +117,6 @@ Feedstock Maintainers
 =====================
 
 * [@ghoersti](https://github.com/ghoersti/)
-* [@tylerpotts](https://github.com/tylerpotts/)
 * [@rigzba21](https://github.com/rigzba21/)
+* [@tylerpotts](https://github.com/tylerpotts/)
+
