@@ -9,7 +9,7 @@ source:
   sha256: c9cad0124aa89a395b35d073832461cd996d84876ff4b87e02a1ae986e5e92a9
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
   entry_points:
@@ -25,6 +25,7 @@ requirements:
     - pyyaml
     - requests
     - click
+    - ruamel.yaml
 
 test:
   imports:
@@ -41,3 +42,4 @@ extra:
   recipe-maintainers:
     - tylerpotts
     - ghoersti
+    - rigzba21
