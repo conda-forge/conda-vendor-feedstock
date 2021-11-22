@@ -25,6 +25,7 @@ requirements:
     - pyyaml
     - requests
     - click
+    - ruamel.yaml
 
 test:
   imports:
@@ -41,3 +42,4 @@ extra:
   recipe-maintainers:
     - tylerpotts
     - ghoersti
+    - rigzba21
