@@ -21,6 +21,7 @@ requirements:
     - wheel
     - pip
     - python >=3.6
+    - click
   host:
     - pip
     - python >=3.6
