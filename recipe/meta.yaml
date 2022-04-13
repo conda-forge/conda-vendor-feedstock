@@ -12,10 +12,15 @@ build:
   number: 0
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
-  entry_points:
-    - conda-vendor = conda_vendor.__main__:cli
+  #entry_points:
+  #  - conda-vendor = conda_vendor.__main__:cli
 
 requirements:
+  build:
+    - setuptools
+    - wheel
+    - pip
+    - python >=3.6
   host:
     - pip
     - python >=3.6
