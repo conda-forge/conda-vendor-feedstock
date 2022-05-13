@@ -1,12 +1,12 @@
 {% set name = "conda-vendor" %}
-{% set version = "0.1.15" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 source:
   url: https://github.com/MetroStar/conda-vendor/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: c9cad0124aa89a395b35d073832461cd996d84876ff4b87e02a1ae986e5e92a9
+  sha256: 54aa19ee1196c01989d762c888bf55dd2c5f308bde26ed62880237462173aca1
 
 build:
   number: 1
@@ -19,6 +19,7 @@ requirements:
   host:
     - pip
     - python >=3.6
+    - click
   run:
     - python >=3.6
     - conda-lock
