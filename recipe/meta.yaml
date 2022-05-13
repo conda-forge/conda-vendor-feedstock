@@ -29,7 +29,8 @@ requirements:
     - requests
     - click
     - ruamel.yaml
-
+    - git
+    - conda-build
 test:
   imports:
     - conda_vendor
