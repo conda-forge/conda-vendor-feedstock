@@ -20,6 +20,8 @@ requirements:
     - pip
     - python >=3.6
     - click
+    - conda-build
+    - git
   run:
     - python >=3.6
     - conda-lock
@@ -27,6 +29,8 @@ requirements:
     - requests
     - click
     - ruamel.yaml
+    - conda-build
+    - git
 
 test:
   imports:
