@@ -24,7 +24,7 @@ requirements:
     - git
   run:
     - python >=3.6
-    - conda-lock
+    - conda-lock==1.0.5
     - pyyaml
     - requests
     - click
