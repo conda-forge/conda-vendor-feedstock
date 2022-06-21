@@ -1,12 +1,12 @@
 {% set name = "conda-vendor" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 source:
   url: https://github.com/MetroStar/conda-vendor/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 54aa19ee1196c01989d762c888bf55dd2c5f308bde26ed62880237462173aca1
+  sha256: d76195b62e34690f0757300b8eb209c0615c8119263a5cc3b73edb96290d1ca8
 
 build:
   number: 0
