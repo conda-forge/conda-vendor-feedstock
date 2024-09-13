@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 source:
   url: https://github.com/MetroStar/conda-vendor/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: f860fcc3c9daadf78a665191d1c233358c2ca429126bd94fe5b365dbec563a4d
+  sha256: d35b750bd33bfcde30570eb8d66a9a3ea7d1899e1f50d28e8dbbb89f7f1712e5
 
 build:
   number: 0
