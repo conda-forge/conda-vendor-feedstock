@@ -145,6 +145,7 @@ Feedstock Maintainers
 
 * [@ghoersti](https://github.com/ghoersti/)
 * [@iameskild](https://github.com/iameskild/)
+* [@jbouder](https://github.com/jbouder/)
 * [@kcpevey](https://github.com/kcpevey/)
 * [@rigzba21](https://github.com/rigzba21/)
 * [@tylerpotts](https://github.com/tylerpotts/)
