@@ -9,7 +9,7 @@ source:
   sha256: f978b5f35a0ffe698af784755a66004061def9a7be7d9830faf56afefd0f7a1b
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
   entry_points:
@@ -18,12 +18,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python {{ python_min }}
     - click
     - conda-build
     - git
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - conda-lock ==1.1.2
     - pydantic =1.8.1
     - pyyaml
@@ -33,6 +33,8 @@ requirements:
     - git
     - conda-build
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - conda_vendor
 
